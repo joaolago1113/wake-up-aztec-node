@@ -240,16 +240,19 @@ Make sure the email used in UptimeRobot matches the one configured in your iPhon
 
 ## 🚨 11. Automate Notifications on iOS
 
-0. Get the iOS Shortcut:
+1. Get the iOS Shortcut:
    [https://www.icloud.com/shortcuts/6a45d796f86846aab583490cdb4549a5](https://www.icloud.com/shortcuts/6a45d796f86846aab583490cdb4549a5)
-1. Open the **Shortcuts** app on your iPhone.
-2. Go to the **Automation** tab.
-3. Tap **+** at the top right.
-4. Scroll and select **Email**.
-5. In the field **Subject Contains**, choose and write: `Monitor is DOWN: Aztec`
-6. Select **Run Immediately**.
-7. Tap **Next**.
-8. Under **My Shortcuts**, choose the shortcut you got in step **0**: **Aztec Alarm 1**.
+2. Add a music, or an alarm sound to the file section of the shortcut:
+<img src="https://github.com/user-attachments/assets/f95ff327-d2b0-4c8a-8f2e-163445a656d7" width="400" />
+> ⚠️ **Note**: You can use this alarm sound [Annoying_Alarm_Clock-UncleKornicob-420925725.wav.zip](https://github.com/user-attachments/files/20509587/Annoying_Alarm_Clock-UncleKornicob-420925725.wav.zip)
+3. Open the **Shortcuts** app on your iPhone.
+4. Go to the **Automation** tab.
+5. Tap **+** at the top right.
+6. Scroll and select **Email**.
+7. In the field **Subject Contains**, choose and write: `Monitor is DOWN: Aztec`
+8. Select **Run Immediately**.
+9. Tap **Next**.
+10. Under **My Shortcuts**, choose the shortcut you got in step **0**: **Aztec Alarm 1**.
 
 #### It will look like this
 <img src="https://github.com/user-attachments/assets/3d2e33ae-380f-4007-994c-9228dea747ae" width="400" />
