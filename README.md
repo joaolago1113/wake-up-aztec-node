@@ -222,19 +222,19 @@ Make sure the email used in UptimeRobot matches the one configured in your iPhon
 
 1. Log into your [UptimeRobot dashboard](https://uptimerobot.com/dashboard) app.
 2. Click on the **+** at the top right.
-3. Fill in the fields as follows:
-   - Choose 'Port'
-   - On Port type select "Custom port"
-   - Fill "8089" in the "Port number" field
+3. Choose "Keyword".
+4. Fill in the fields as follows:
    - For "URL or IP address" fill in `http://<your-server-ip>:8089/health`
    - > ⚠️ **Warning**: Replace `<your-server-ip>` with your validator's ip.
    - For the "Monitor name" fill in: `Aztec 1` *(or Aztec 2, Aztec 3, etc., if you are monitoring multiple nodes)*
+   - For Keyword write `OK`and choose "be present" below.
 5. Click **Create Monitor**.
 6. Press on the 3 vertical dots at the top right and choose "Manage aler contacts"
 7. Switch on the "Email contact" option.
 
 #### It will look like this
-<img src="https://github.com/user-attachments/assets/5813762f-5d59-4b4b-9798-529d917a5645" width="400" />
+
+<img src="https://github.com/user-attachments/assets/9414d8f2-eb60-4ded-9a2e-b22b7f54adde" width="400" />
 
 ---
 
