@@ -81,7 +81,7 @@ server {
             end
 
             local httpc = http.new()
-            httpc:set_timeout(1000) -- 1 second
+            httpc:set_timeout(5000) -- 5 second
 
             local res, err = httpc:request_uri("http://127.0.0.1:8080", {
                 method = "POST",
