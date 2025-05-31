@@ -45,8 +45,10 @@ sudo nano /usr/local/openresty/nginx/conf/healthcheck.conf
 
 Paste:
 
-> ⚠️ **Warning**: Replace <YOUR_VALIDATOR_ADDRESS> with your address.
 
+> ⚠️ **Warning**: If you're not part of the validator set yet use this script instead: [healthcheck.conf](https://github.com/joaolago1113/wake-up-aztec-node/blob/main/healthcheck.conf), otherwise use this:
+
+> ⚠️ **Warning**: Replace <YOUR_VALIDATOR_ADDRESS> with your address.
 ```nginx
 lua_shared_dict health_cache 1m;
 limit_req_zone $binary_remote_addr zone=health_limit:10m rate=5r/s;
