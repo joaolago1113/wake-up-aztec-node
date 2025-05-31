@@ -83,7 +83,7 @@ server {
             end
 
             local httpc = http.new()
-            httpc:set_timeout(5000) -- 5 second
+            httpc:set_timeout(30000) -- 30 second
 
             local res, err = httpc:request_uri("http://127.0.0.1:8080", {
                 method = "POST",
@@ -133,7 +133,7 @@ server {
                 result = "OK"
             end
 
-            cache:set("health_result", result, 5)  -- cache for 5 seconds
+            cache:set("health_result", result, 59)  -- cache for 5 seconds
             ngx.say(result)
         }
     }
